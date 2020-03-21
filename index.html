@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>麻将对对碰程序实现</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="main.js" type="text/javascript"></script>
+</head>
+ 
+<body>
+    <table>
+        <tr>
+            <td><img onclick="postion(this)" id="0"></td>
+            <td><img onclick="postion(this)" id="1"></td>
+            <td><img onclick="postion(this)" id="2"></td>
+            <td><img onclick="postion(this)" id="3"></td>
+            <td><img onclick="postion(this)" id="4"></td>
+            <td><img onclick="postion(this)" id="5" ></td>
+            <td><img onclick="postion(this)" id="6"></td>
+            <td><img onclick="postion(this)" id="7"></td>
+            <td><img onclick="postion(this)" id="8"></td>
+            <td><img onclick="postion(this)" id="9"></td>             
+            <td><img onclick="postion(this)" id="10"></td>
+            <td><img onclick="postion(this)" id="11"></td>
+            <td><img onclick="postion(this)" id="12"></td>
+            <td><img onclick="postion(this)" id="13"></td>
+            <td><img onclick="postion(this)" id="14"></td>
+
+        </tr>
+        <tr>
+            <td><img onclick="postion(this)" id="15"   ></td>
+            <td><img onclick="postion(this)" id="16"   ></td>
+            <td><img onclick="postion(this)" id="17"   ></td>
+            <td><img onclick="postion(this)" id="18"  ></td>
+            <td><img onclick="postion(this)" id="19"   ></td>
+            <td><img onclick="postion(this)" id="20"   ></td>
+            <td><img onclick="postion(this)" id="21"   ></td>
+            <td><img onclick="postion(this)" id="22"  ></td>
+            <td><img onclick="postion(this)" id="23"   ></td>
+            <td><img onclick="postion(this)" id="24"  ></td> 
+            <td><img onclick="postion(this)" id="25"  ></td>
+            <td><img onclick="postion(this)" id="26"  ></td>
+            <td><img onclick="postion(this)" id="27"  ></td>
+            <td><img onclick="postion(this)" id="28"  ></td>
+            <td><img onclick="postion(this)" id="29"  ></td>
+        </tr>
+        <tr>
+            <td><img onclick="postion(this)" id="30"   ></td>
+            <td><img onclick="postion(this)" id="31"   ></td>
+            <td><img onclick="postion(this)" id="32"   ></td>
+            <td><img onclick="postion(this)" id="33"  ></td>
+            <td><img onclick="postion(this)" id="34"   ></td>
+            <td><img onclick="postion(this)" id="35"   ></td>
+            <td><img onclick="postion(this)" id="36"   ></td>
+            <td><img onclick="postion(this)" id="37"   ></td>
+            <td><img onclick="postion(this)" id="38"   ></td>
+            <td><img onclick="postion(this)" id="39"  ></td> 
+            <td><img onclick="postion(this)" id="40"   ></td>
+            <td><img onclick="postion(this)" id="41"   ></td>
+            <td><img onclick="postion(this)" id="42"   ></td>
+            <td><img onclick="postion(this)" id="43"   ></td>
+            <td><img onclick="postion(this)" id="44" ></td>
+        </tr>
+        <tr>
+            <td><img onclick="postion(this)" id="45"   ></td>
+            <td><img onclick="postion(this)" id="46"   ></td>
+            <td><img onclick="postion(this)" id="47"   ></td>
+            <td><img onclick="postion(this)" id="48"   ></td>
+            <td><img onclick="postion(this)" id="49"   ></td>
+            <td><img onclick="postion(this)" id="50"   ></td>
+            <td><img onclick="postion(this)" id="51"   ></td>
+            <td><img onclick="postion(this)" id="52"   ></td>
+            <td><img onclick="postion(this)" id="53"   ></td>
+            <td><img onclick="postion(this)" id="54"  ></td> 
+            <td><img onclick="postion(this)" id="55"   ></td>
+            <td><img onclick="postion(this)" id="56"   ></td>
+            <td><img onclick="postion(this)" id="57"   ></td>
+            <td><img onclick="postion(this)" id="58"  ></td>
+            <td><img onclick="postion(this)" id="59"   ></td>
+        </tr>
+        <tr>
+            <td><img onclick="postion(this)" id="60"   ></td>
+            <td><img onclick="postion(this)" id="61"   ></td>
+            <td><img onclick="postion(this)" id="62"   ></td>
+            <td><img onclick="postion(this)" id="63"   ></td>
+            <td><img onclick="postion(this)" id="64"   ></td>
+            <td><img onclick="postion(this)" id="65"   ></td>
+            <td><img onclick="postion(this)" id="66"  ></td>
+            <td><img onclick="postion(this)" id="67"   ></td>
+            <td><img onclick="postion(this)" id="68"   ></td>
+            <td><img onclick="postion(this)" id="69"  ></td>
+            <td><img onclick="postion(this)" id="70"   ></td>
+            <td><img onclick="postion(this)" id="71"   ></td>
+            <td><img onclick="postion(this)" id="72"   ></td>
+            <td><img onclick="postion(this)" id="73"   ></td>
+            <td><img onclick="postion(this)" id="74"  ></td>
+        </tr>
+        <tr>
+            <td><img onclick="postion(this)" id="75"  ></td>
+            <td><img onclick="postion(this)" id="76"   ></td>
+            <td><img onclick="postion(this)" id="77"   ></td>
+            <td><img onclick="postion(this)" id="78"   ></td>
+            <td><img onclick="postion(this)" id="79"   ></td>
+            <td><img onclick="postion(this)" id="80"   ></td>
+            <td><img onclick="postion(this)" id="81"   ></td>
+            <td><img onclick="postion(this)" id="82"   ></td>
+            <td><img onclick="postion(this)" id="83"   ></td>
+            <td><img onclick="postion(this)" id="84"  ></td>
+            <td><img onclick="postion(this)" id="85"   ></td>
+            <td><img onclick="postion(this)" id="86"   ></td>
+            <td><img onclick="postion(this)" id="87"   ></td>
+            <td><img onclick="postion(this)" id="88"   ></td>
+            <td><img onclick="postion(this)" id="89"   ></td>
+        </tr>
+        <tr>
+            <td><img onclick="postion(this)" id="90"   ></td>
+            <td><img onclick="postion(this)" id="91"   ></td>
+            <td><img onclick="postion(this)" id="92"   ></td>
+            <td><img onclick="postion(this)" id="93"  ></td>
+            <td><img onclick="postion(this)" id="94"   ></td>
+            <td><img onclick="postion(this)" id="95"   ></td>
+            <td><img onclick="postion(this)" id="96"   ></td>
+            <td><img onclick="postion(this)" id="97"   ></td>
+            <td><img onclick="postion(this)" id="98"  ></td>
+            <td><img onclick="postion(this)" id="99"  ></td>
+            <td><img onclick="postion(this)" id="100"  ></td>
+            <td><img onclick="postion(this)" id="101"   ></td>
+            <td><img onclick="postion(this)" id="102"   ></td>
+            <td><img onclick="postion(this)" id="103"  ></td>
+            <td><img onclick="postion(this)" id="104"  ></td>
+        </tr>
+        <tr>
+            <td><img onclick="postion(this)" id="105"   ></td>
+            <td><img onclick="postion(this)" id="106"   ></td>
+            <td><img onclick="postion(this)" id="107"  ></td>
+            <td><img onclick="postion(this)" id="108"  ></td>
+            <td><img onclick="postion(this)" id="109"  ></td>
+            <td><img onclick="postion(this)" id="110"   ></td>
+            <td><img onclick="postion(this)" id="111"   ></td>
+            <td><img onclick="postion(this)" id="112"   ></td>
+            <td><img onclick="postion(this)" id="113"   ></td>
+            <td><img onclick="postion(this)" id="114"   ></td>
+            <td><img onclick="postion(this)" id="115"   ></td>
+            <td><img onclick="postion(this)" id="116"   ></td>
+            <td><img onclick="postion(this)" id="117"   ></td>
+            <td><img onclick="postion(this)" id="118"   ></td>
+            <td><img onclick="postion(this)" id="119"   ></td>
+        </tr>
+    </table>
+    <button class="dropbtn" type="button" onclick="randanarr()">初始化</button>
+    <button class="dropbtn" type="button" onclick="binggotonull()">binggotonull</button>
+    <div class="dropdown">
+        <button class="dropbtn">单个左移</button>
+        <div class="dropdown-content">
+          <button onclick="aleft(1)"> 左移一格</button>
+          <button onclick="aleft(2)"> 左移两格</button>
+          <button onclick="aleft(3)"> 左移三格</button>
+          <button onclick="aleft(4)"> 左移四格</button>
+          <button onclick="aleft(5)"> 左移五格</button>
+          <button onclick="aleft(6)"> 左移六格</button>
+          <button onclick="aleft(7)"> 左移七格</button>
+          <button onclick="aleft(8)"> 左移八格</button>
+          <button onclick="aleft(9)"> 左移九格</button>
+          <button onclick="aleft(10)"> 左移十格</button>
+          <button onclick="aleft(11)">左移十一格</button>
+          <button onclick="aleft(12)">左移十二格</button>
+          <button onclick="aleft(13)">左移十三格</button>
+          <button onclick="aleft(14)">左移十四格</button>
+        </div>
+      </div>
+
+
+
+</body>
+ 
+</html>
